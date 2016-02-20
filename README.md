@@ -4,7 +4,7 @@
 
 ![](https://github.com/LinBling/LHClickImageViewDemo/blob/master/clickImage.gif)
 
-######用法
+####用法
 导入 #import "LHClickImageView"
 
 就够了=。=
