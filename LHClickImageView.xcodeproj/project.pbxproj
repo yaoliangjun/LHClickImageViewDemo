@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC9D07721C78B5B700518852 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9D07711C78B5B700518852 /* main.m */; };
+		EC9D07751C78B5B700518852 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9D07741C78B5B700518852 /* AppDelegate.m */; };
+		EC9D07781C78B5B700518852 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9D07771C78B5B700518852 /* ViewController.m */; };
+		EC9D077B1C78B5B700518852 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC9D07791C78B5B700518852 /* Main.storyboard */; };
+		EC9D077D1C78B5B700518852 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9D077C1C78B5B700518852 /* Assets.xcassets */; };
+		EC9D07801C78B5B700518852 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC9D077E1C78B5B700518852 /* LaunchScreen.storyboard */; };
+		EC9D078B1C78B5B700518852 /* LHClickImageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9D078A1C78B5B700518852 /* LHClickImageViewTests.m */; };
+		EC9D07961C78B5B700518852 /* LHClickImageViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9D07951C78B5B700518852 /* LHClickImageViewUITests.m */; };
+		EC9D07A61C78B60B00518852 /* LHClickImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9D07A51C78B60B00518852 /* LHClickImageView.m */; };
+		EC9D07AA1C78B63D00518852 /* doge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC9D07A81C78B63D00518852 /* doge@2x.png */; };
+		EC9D07AB1C78B63D00518852 /* dogebread.png in Resources */ = {isa = PBXBuildFile; fileRef = EC9D07A91C78B63D00518852 /* dogebread.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC9D07871C78B5B700518852 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC9D07651C78B5B700518852 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC9D076C1C78B5B700518852;
+			remoteInfo = LHClickImageView;
+		};
+		EC9D07921C78B5B700518852 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC9D07651C78B5B700518852 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC9D076C1C78B5B700518852;
+			remoteInfo = LHClickImageView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC9D076D1C78B5B700518852 /* LHClickImageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LHClickImageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC9D07711C78B5B700518852 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC9D07731C78B5B700518852 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC9D07741C78B5B700518852 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC9D07761C78B5B700518852 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC9D07771C78B5B700518852 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC9D077A1C78B5B700518852 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC9D077C1C78B5B700518852 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC9D077F1C78B5B700518852 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC9D07811C78B5B700518852 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC9D07861C78B5B700518852 /* LHClickImageViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LHClickImageViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC9D078A1C78B5B700518852 /* LHClickImageViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LHClickImageViewTests.m; sourceTree = "<group>"; };
+		EC9D078C1C78B5B700518852 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC9D07911C78B5B700518852 /* LHClickImageViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LHClickImageViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC9D07951C78B5B700518852 /* LHClickImageViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LHClickImageViewUITests.m; sourceTree = "<group>"; };
+		EC9D07971C78B5B700518852 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC9D07A41C78B60B00518852 /* LHClickImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHClickImageView.h; sourceTree = "<group>"; };
+		EC9D07A51C78B60B00518852 /* LHClickImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHClickImageView.m; sourceTree = "<group>"; };
+		EC9D07A81C78B63D00518852 /* doge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "doge@2x.png"; sourceTree = "<group>"; };
+		EC9D07A91C78B63D00518852 /* dogebread.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dogebread.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC9D076A1C78B5B700518852 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9D07831C78B5B700518852 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9D078E1C78B5B700518852 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC9D07641C78B5B700518852 = {
+			isa = PBXGroup;
+			children = (
+				EC9D076F1C78B5B700518852 /* LHClickImageView */,
+				EC9D07891C78B5B700518852 /* LHClickImageViewTests */,
+				EC9D07941C78B5B700518852 /* LHClickImageViewUITests */,
+				EC9D076E1C78B5B700518852 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC9D076E1C78B5B700518852 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC9D076D1C78B5B700518852 /* LHClickImageView.app */,
+				EC9D07861C78B5B700518852 /* LHClickImageViewTests.xctest */,
+				EC9D07911C78B5B700518852 /* LHClickImageViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC9D076F1C78B5B700518852 /* LHClickImageView */ = {
+			isa = PBXGroup;
+			children = (
+				EC9D07A71C78B63D00518852 /* 图片测试用 */,
+				EC9D07A31C78B60B00518852 /* LHClickImageViewClass */,
+				EC9D07731C78B5B700518852 /* AppDelegate.h */,
+				EC9D07741C78B5B700518852 /* AppDelegate.m */,
+				EC9D07761C78B5B700518852 /* ViewController.h */,
+				EC9D07771C78B5B700518852 /* ViewController.m */,
+				EC9D07791C78B5B700518852 /* Main.storyboard */,
+				EC9D077C1C78B5B700518852 /* Assets.xcassets */,
+				EC9D077E1C78B5B700518852 /* LaunchScreen.storyboard */,
+				EC9D07811C78B5B700518852 /* Info.plist */,
+				EC9D07701C78B5B700518852 /* Supporting Files */,
+			);
+			path = LHClickImageView;
+			sourceTree = "<group>";
+		};
+		EC9D07701C78B5B700518852 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC9D07711C78B5B700518852 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC9D07891C78B5B700518852 /* LHClickImageViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC9D078A1C78B5B700518852 /* LHClickImageViewTests.m */,
+				EC9D078C1C78B5B700518852 /* Info.plist */,
+			);
+			path = LHClickImageViewTests;
+			sourceTree = "<group>";
+		};
+		EC9D07941C78B5B700518852 /* LHClickImageViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC9D07951C78B5B700518852 /* LHClickImageViewUITests.m */,
+				EC9D07971C78B5B700518852 /* Info.plist */,
+			);
+			path = LHClickImageViewUITests;
+			sourceTree = "<group>";
+		};
+		EC9D07A31C78B60B00518852 /* LHClickImageViewClass */ = {
+			isa = PBXGroup;
+			children = (
+				EC9D07A41C78B60B00518852 /* LHClickImageView.h */,
+				EC9D07A51C78B60B00518852 /* LHClickImageView.m */,
+			);
+			path = LHClickImageViewClass;
+			sourceTree = "<group>";
+		};
+		EC9D07A71C78B63D00518852 /* 图片测试用 */ = {
+			isa = PBXGroup;
+			children = (
+				EC9D07A81C78B63D00518852 /* doge@2x.png */,
+				EC9D07A91C78B63D00518852 /* dogebread.png */,
+			);
+			path = "图片测试用";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC9D076C1C78B5B700518852 /* LHClickImageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC9D079A1C78B5B700518852 /* Build configuration list for PBXNativeTarget "LHClickImageView" */;
+			buildPhases = (
+				EC9D07691C78B5B700518852 /* Sources */,
+				EC9D076A1C78B5B700518852 /* Frameworks */,
+				EC9D076B1C78B5B700518852 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LHClickImageView;
+			productName = LHClickImageView;
+			productReference = EC9D076D1C78B5B700518852 /* LHClickImageView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC9D07851C78B5B700518852 /* LHClickImageViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC9D079D1C78B5B700518852 /* Build configuration list for PBXNativeTarget "LHClickImageViewTests" */;
+			buildPhases = (
+				EC9D07821C78B5B700518852 /* Sources */,
+				EC9D07831C78B5B700518852 /* Frameworks */,
+				EC9D07841C78B5B700518852 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC9D07881C78B5B700518852 /* PBXTargetDependency */,
+			);
+			name = LHClickImageViewTests;
+			productName = LHClickImageViewTests;
+			productReference = EC9D07861C78B5B700518852 /* LHClickImageViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC9D07901C78B5B700518852 /* LHClickImageViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC9D07A01C78B5B700518852 /* Build configuration list for PBXNativeTarget "LHClickImageViewUITests" */;
+			buildPhases = (
+				EC9D078D1C78B5B700518852 /* Sources */,
+				EC9D078E1C78B5B700518852 /* Frameworks */,
+				EC9D078F1C78B5B700518852 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC9D07931C78B5B700518852 /* PBXTargetDependency */,
+			);
+			name = LHClickImageViewUITests;
+			productName = LHClickImageViewUITests;
+			productReference = EC9D07911C78B5B700518852 /* LHClickImageViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC9D07651C78B5B700518852 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Lin;
+				TargetAttributes = {
+					EC9D076C1C78B5B700518852 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					EC9D07851C78B5B700518852 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = EC9D076C1C78B5B700518852;
+					};
+					EC9D07901C78B5B700518852 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = EC9D076C1C78B5B700518852;
+					};
+				};
+			};
+			buildConfigurationList = EC9D07681C78B5B700518852 /* Build configuration list for PBXProject "LHClickImageView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC9D07641C78B5B700518852;
+			productRefGroup = EC9D076E1C78B5B700518852 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC9D076C1C78B5B700518852 /* LHClickImageView */,
+				EC9D07851C78B5B700518852 /* LHClickImageViewTests */,
+				EC9D07901C78B5B700518852 /* LHClickImageViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC9D076B1C78B5B700518852 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9D07801C78B5B700518852 /* LaunchScreen.storyboard in Resources */,
+				EC9D07AB1C78B63D00518852 /* dogebread.png in Resources */,
+				EC9D077D1C78B5B700518852 /* Assets.xcassets in Resources */,
+				EC9D077B1C78B5B700518852 /* Main.storyboard in Resources */,
+				EC9D07AA1C78B63D00518852 /* doge@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9D07841C78B5B700518852 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9D078F1C78B5B700518852 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC9D07691C78B5B700518852 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9D07781C78B5B700518852 /* ViewController.m in Sources */,
+				EC9D07A61C78B60B00518852 /* LHClickImageView.m in Sources */,
+				EC9D07751C78B5B700518852 /* AppDelegate.m in Sources */,
+				EC9D07721C78B5B700518852 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9D07821C78B5B700518852 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9D078B1C78B5B700518852 /* LHClickImageViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9D078D1C78B5B700518852 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9D07961C78B5B700518852 /* LHClickImageViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC9D07881C78B5B700518852 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC9D076C1C78B5B700518852 /* LHClickImageView */;
+			targetProxy = EC9D07871C78B5B700518852 /* PBXContainerItemProxy */;
+		};
+		EC9D07931C78B5B700518852 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC9D076C1C78B5B700518852 /* LHClickImageView */;
+			targetProxy = EC9D07921C78B5B700518852 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC9D07791C78B5B700518852 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC9D077A1C78B5B700518852 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC9D077E1C78B5B700518852 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC9D077F1C78B5B700518852 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC9D07981C78B5B700518852 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC9D07991C78B5B700518852 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC9D079B1C78B5B700518852 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LHClickImageView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lin.LHClickImageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC9D079C1C78B5B700518852 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LHClickImageView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lin.LHClickImageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC9D079E1C78B5B700518852 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LHClickImageViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lin.LHClickImageViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LHClickImageView.app/LHClickImageView";
+			};
+			name = Debug;
+		};
+		EC9D079F1C78B5B700518852 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LHClickImageViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lin.LHClickImageViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LHClickImageView.app/LHClickImageView";
+			};
+			name = Release;
+		};
+		EC9D07A11C78B5B700518852 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LHClickImageViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lin.LHClickImageViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LHClickImageView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EC9D07A21C78B5B700518852 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LHClickImageViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lin.LHClickImageViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LHClickImageView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC9D07681C78B5B700518852 /* Build configuration list for PBXProject "LHClickImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC9D07981C78B5B700518852 /* Debug */,
+				EC9D07991C78B5B700518852 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC9D079A1C78B5B700518852 /* Build configuration list for PBXNativeTarget "LHClickImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC9D079B1C78B5B700518852 /* Debug */,
+				EC9D079C1C78B5B700518852 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC9D079D1C78B5B700518852 /* Build configuration list for PBXNativeTarget "LHClickImageViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC9D079E1C78B5B700518852 /* Debug */,
+				EC9D079F1C78B5B700518852 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC9D07A01C78B5B700518852 /* Build configuration list for PBXNativeTarget "LHClickImageViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC9D07A11C78B5B700518852 /* Debug */,
+				EC9D07A21C78B5B700518852 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC9D07651C78B5B700518852 /* Project object */;
+}
